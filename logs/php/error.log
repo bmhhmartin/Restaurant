@@ -1,0 +1,25 @@
+[17-May-2021 11:01:12 UTC] PHP Warning:  Error while sending QUERY packet. PID=9132 in C:\Users\Hasnat Martin\Local Sites\restaurant\app\public\wp-includes\wp-db.php on line 2056
+[17-May-2021 11:01:12 UTC] PHP Stack trace:
+[17-May-2021 11:01:12 UTC] PHP   1. {main}() C:\Program Files (x86)\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[17-May-2021 11:01:12 UTC] PHP   2. include() C:\Program Files (x86)\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[17-May-2021 11:01:12 UTC] PHP   3. include() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[17-May-2021 11:01:12 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[17-May-2021 11:01:12 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[17-May-2021 11:01:12 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[17-May-2021 11:01:12 UTC] PHP   7. WP_CLI\Runner->run_command_and_exit() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1160
+[17-May-2021 11:01:12 UTC] PHP   8. WP_CLI\Runner->run_command() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:394
+[17-May-2021 11:01:12 UTC] PHP   9. WP_CLI\Dispatcher\Subcommand->invoke() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:371
+[17-May-2021 11:01:12 UTC] PHP  10. call_user_func:{phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/Subcommand.php:451}() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/Subcommand.php:451
+[17-May-2021 11:01:12 UTC] PHP  11. WP_CLI\Dispatcher\CommandFactory::WP_CLI\Dispatcher\{closure:phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/CommandFactory.php:95-102}() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/Subcommand.php:451
+[17-May-2021 11:01:12 UTC] PHP  12. call_user_func:{phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/CommandFactory.php:98}() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/CommandFactory.php:98
+[17-May-2021 11:01:12 UTC] PHP  13. Core_Command->check_update() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/CommandFactory.php:98
+[17-May-2021 11:01:12 UTC] PHP  14. Core_Command->get_updates() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/core-command/src/Core_Command.php:77
+[17-May-2021 11:01:12 UTC] PHP  15. wp_version_check() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/core-command/src/Core_Command.php:1297
+[17-May-2021 11:01:12 UTC] PHP  16. set_site_transient() C:\Users\Hasnat Martin\Local Sites\restaurant\app\public\wp-includes\update.php:238
+[17-May-2021 11:01:12 UTC] PHP  17. update_site_option() C:\Users\Hasnat Martin\Local Sites\restaurant\app\public\wp-includes\option.php:1963
+[17-May-2021 11:01:12 UTC] PHP  18. update_network_option() C:\Users\Hasnat Martin\Local Sites\restaurant\app\public\wp-includes\option.php:1295
+[17-May-2021 11:01:12 UTC] PHP  19. update_option() C:\Users\Hasnat Martin\Local Sites\restaurant\app\public\wp-includes\option.php:1725
+[17-May-2021 11:01:12 UTC] PHP  20. wpdb->update() C:\Users\Hasnat Martin\Local Sites\restaurant\app\public\wp-includes\option.php:441
+[17-May-2021 11:01:12 UTC] PHP  21. wpdb->query() C:\Users\Hasnat Martin\Local Sites\restaurant\app\public\wp-includes\wp-db.php:2360
+[17-May-2021 11:01:12 UTC] PHP  22. wpdb->_do_query() C:\Users\Hasnat Martin\Local Sites\restaurant\app\public\wp-includes\wp-db.php:1945
+[17-May-2021 11:01:12 UTC] PHP  23. mysqli_query() C:\Users\Hasnat Martin\Local Sites\restaurant\app\public\wp-includes\wp-db.php:2056
